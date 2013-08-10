@@ -1,0 +1,106 @@
+
+
+html 
+{ 
+  background: url('../media/rMView.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body
+{ 
+  position:absolute;left:4%;
+  width:90%;
+  padding:10px;
+  border: 1px solid black;
+  border-radius:5px;
+  background: url('../media/blueBack.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity:.8;
+}
+h2
+{
+color:red;
+text-shadow:1px 1px 1px black;
+}
+h3
+{
+color:black;
+text-shadow:1px 0px 10px white;
+font-size: 28px;
+font-weight: 600;
+}
+
+p
+{
+  text-indent:50px;
+  border: 1px solid blue;
+  border-radius:4px;
+  padding:3px;
+  font-size: 22px;
+  font-weight: 500;
+  background: url('../media/preBack.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img
+{
+  width: 200px;
+  height: 150px;
+  border-radius:3px;
+  overflow: hidden;
+}
+/* Slide Show */
+#slideShow
+{
+  width:60%;
+  height: 60%;
+  border-radius:3px;
+  overflow: hidden;
+}
+/* Image Logo 1 */
+#logo
+{
+  width: 100%;
+  height: 100%;
+}
+/* Image Logo 2 */
+#logo2
+{
+  width: 100%;
+  height: 100%;
+}
+/* Image Logo 2 */
+
+/* Nav Bar */
+ul#list-nav {
+  list-style:none;
+  margin:20px;
+  padding:0;
+  width:525px
+}
+ul#list-nav li {
+  display:inline
+}
+ul#list-nav li a {
+  text-decoration:none;
+  padding:5px 0;
+  width:100px;
+  background:#485e49;
+  color:#eee;
+  float:left;
+  text-align:center;
+  border-left:1px solid #fff;
+}
+ul#list-nav li a:hover {
+  background-image:url('../media/preBack.gif');
+  color:#000
+}
+/* End of Nav Bar */

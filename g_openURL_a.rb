@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
- system("open", "http://georgemm.github.com/")
+ system("open", "http://www.youtube.com/watch?v=g_GTRrt-ETw")
 
 
