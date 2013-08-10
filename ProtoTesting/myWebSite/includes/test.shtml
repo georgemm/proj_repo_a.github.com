@@ -1,0 +1,9 @@
+
+
+<!--#echo var='DATE_LOCAL' --> <br/><br/>
+
+<b>Your address is :: <!--#echo var='REMOTE_ADDR' --> ::<br/><br/>
+
+<b>Last Modification Was Performed :: <!--#echo var='LAST_MODIFIED' --> :: </b><br/><br/>
+
+<b>Path to current document :: <!--#echo var='DOCUMENT_URI' --> ::<br/><br/><hr/>
